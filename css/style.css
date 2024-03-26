@@ -118,10 +118,15 @@ h6,
     color: var(--primary);
 }
 
+.ml-custom {
+    margin-left: -85px !important; /* Using !important to ensure it overrides Bootstrap's default margin */
+  }
+
 @media (max-width: 991.98px) {
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
+        margin-left: -20px  ;
     }
 }
 
@@ -144,6 +149,7 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+    
 }
 
 .carousel-control-prev,
@@ -189,27 +195,22 @@ h6,
     height: 100%;
 }
 
-.bg-nav{
-    background-color: #d63405;
-    color: white;
-}
-
-.bg-mail{
-    background-color: #770603;
-}
 
 .logo{
     width: 120px;
     height: 80px;
+    margin-left: 20px;
 }
 
+
+
 .hero-header {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/hospital.png) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/covid.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .bg-appointment {
-    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/hospital.png) center center no-repeat;
+    background: linear-gradient(rgba(9, 30, 62, .85), rgba(9, 30, 62, .85)), url(../img/covid.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -249,7 +250,7 @@ h6,
 }
 
 .bg-offer {
-    background:url(../img/carousel-1.jpg) center center no-repeat;
+    background:url(../img/covid.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -294,7 +295,7 @@ h6,
 }
 
 .bg-testimonial {
-    background: url(../img/carousel-2.jpg) center center no-repeat;
+    background: url(../img/nurse.jpg) center center no-repeat;
     background-size: cover;
 }
 
